@@ -1,0 +1,4 @@
+{
+    "testFiles": "**/*.{feature,features}",
+    "blockHosts": [ "google-analytics.com", "clarity.ms/collect"]
+  }
