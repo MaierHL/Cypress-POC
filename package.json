@@ -12,6 +12,7 @@
     "cypress": "^9.5.0"
   },
   "dependencies": {
+    "ajv": "^6.12.6",
     "chai-json-schema": "^1.5.1",
     "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-xpath": "^1.6.2"

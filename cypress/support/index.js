@@ -16,7 +16,7 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 import 'cypress-xpath'
-import chaiJsonSchema from 'chai-json-schema';
-chai.use(chaiJsonSchema);
+// import chaiJsonSchema from 'chai-json-schema';
+// chai.use(chaiJsonSchema);
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
