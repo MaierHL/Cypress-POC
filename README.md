@@ -18,7 +18,7 @@ Abrir Terminal/CMD
 
 Para os exemplos foram utilizados os sites:
 
-https://demo.applitools.com/  Para exemplo de navegacao DOM e xpath. Com variavies e Gherkin em ingles
+https://demo.applitools.com/  Para exemplo de navegacao DOM e xpath. Com variaveis e Gherkin em ingles
 
 https://covid19-brazil-api.now.sh para validacao de API ( status code, schema). E criacao de variaveis em portugues 
 
