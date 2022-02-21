@@ -2,7 +2,7 @@
 •Instalar npm
 
 •Clonar projeto
-https://github.com/MaierHL/cypressTest/tree/main
+https://github.com/MaierHL/Cypress-POC/tree/main
 
 Abrir Terminal/CMD
 
