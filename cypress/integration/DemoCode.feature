@@ -7,7 +7,7 @@ Feature: Web Page DemoBank
         Then I see my Financial Overview
 
     @API
-    Scenario: Validar retorno API
-        * Contrato de API com Cypress
+    Scenario: Validar API - StatusCode/schema
+        * Validacao de API COVID BRAZIL
 
 

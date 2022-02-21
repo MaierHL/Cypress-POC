@@ -6,9 +6,6 @@ Given('I am at {string}', (url) => {
   cy.visit(url);
 });
 
-// Given('Estou acessando {string}', (url) => {
-//   cy.visit(url);
-// });
 
 //WHEN----------------------------------------------------
 
@@ -25,11 +22,11 @@ Then('I see my Financial Overview', () => {
 });
 
 
-Then('Contrato de API com Cypress', () => {
-  it('Faz requisição para API', () => {
-    cy.request('GET', 'https://covid19-brazil-api.now.sh/api/report/v1').then(({ status, body }) => {
-      expect(status).to.equal(200)
-      cy.validateSchema('covidSchema', body)
-    })
+// * -----------------------------------------------------
+When('Validacao de API COVID BRAZIL', () => {
+  cy.request('GET', 'https://covid19-brazil-api.now.sh/api/report/v1').then(({ status, body }) => {
+    expect(status).to.equal(200)
+    cy.validateSchema('covidSchema', body)
   })
 })
+
